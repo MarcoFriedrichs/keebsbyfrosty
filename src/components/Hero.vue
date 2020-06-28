@@ -18,7 +18,7 @@ export default {
   name: 'Hero',
   data () {
     return {
-      message: 'Try change me!'
+      message: ''
     }
   }
 }

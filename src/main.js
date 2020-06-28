@@ -8,4 +8,8 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Index', {
     
   })
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://rsms.me/inter/inter.css'
+  })
 }

@@ -3,12 +3,22 @@
     <div class="top-bar">
       <div class="logo"></div>
       <ul class="page-links">
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <div class="left-links">
+          <li><a>About</a></li>
+          <li><a>Work</a></li>
+          <li><a>Contact</a></li>
+        </div>
+        <div class="right-links">
+          <li><a>Youtube</a></li>
+          <li><a>Discord</a></li>
+        </div>
       </ul>
     </div>
-    <div class="center-text">
+    <div class="center-wrapper">
+      <div class="center-text" v-html="message"></div>
+      <div class="cta-button">
+        <a>commission  a build</a>
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +28,7 @@ export default {
   name: 'Hero',
   data () {
     return {
-      message: ''
+      message: "You wanna buy a keyboard?<br>You've come to the right place!"
     }
   }
 }
@@ -32,14 +42,11 @@ export default {
       height: 100vh;
   }
 
-  .top-bar {
-    margin-top: 35px;
-    background: chocolate;
-  }
 
   .logo {
     width: 130px;
     height: 130px;
+    display: inline-block;
     background-image: url(../../static/keebs_by_frosty__1_-removebg-preview.png);
     background-position: center;
     background-size: contain;
@@ -47,12 +54,77 @@ export default {
     transform: translateX(-50%);
   }
 
-  .page-links {
-    float: left;
-    list-style: none;
+  .top-bar {
+    position: absolute;
+    width: 100%;
+    top: 40px;
   }
+
+  .page-links {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    top: 65px;
+    transform: translateY(-50%);
+  }
+
+  .page-links li {
+    list-style: none;
+    float: left;
+  }
+
+  .page-links li a {
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+
+  .left-links {
+    float: left;
+    margin-left: 50px;
+  }
+
+  .right-links {
+    float: right;
+    margin-right: 50px;
+  }
+
 
   .center-text {
     font-family: 'Inter';
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    font-size: 2.8em;
+    font-weight: 500;
+  }
+
+  .center-wrapper {
+    width: 100%;
+    position: absolute;
+
+  }
+
+  .cta-button {
+    margin-top: 0;
+    padding: 20px;
+    background: #000;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, -20%);
+  }
+
+  .cta-button a {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    color: #fff;
   }
 </style>

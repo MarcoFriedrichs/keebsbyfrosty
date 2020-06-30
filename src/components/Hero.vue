@@ -58,6 +58,7 @@ export default {
     position: absolute;
     width: 100%;
     top: 40px;
+    z-index: 1000
   }
 
   .page-links {
@@ -81,8 +82,12 @@ export default {
     display: block;
     color: #fff;
     font-family: 'Inter';
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: 200;
+  }
+
+  .page-links li a:hover {
+    
   }
 
   .left-links {
@@ -103,7 +108,7 @@ export default {
     text-align: center;
     margin-top: 50vh;
     transform: translateY(-50%);
-    font-size: 2.8em;
+    font-size: 46px;
     font-weight: 500;
   }
 
@@ -122,9 +127,13 @@ export default {
     transform: translate(-50%, -20%);
   }
 
+  .cta-button:hover {
+    background: #1a1a1a;
+  }
+
   .cta-button a {
     font-family: 'Inter';
-    font-size: 1.2em;
+    font-size: 16px;
     color: #fff;
   }
 </style>

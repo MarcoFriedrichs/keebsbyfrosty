@@ -28,7 +28,7 @@
         <a>commission&nbsp;a&nbsp;build</a>
       </div>
     </div>
-    <video src="../../static/keyboard_1080p_video.mp4" autoplay loop muted></video>
+    <video src="../../static/keyboard_1080p_video.mp4" autoplay loop muted disableRemotePlayback></video>
   </div>
 </template>
 
@@ -68,10 +68,6 @@ export default {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-  }
-
-  video::-internal-media-controls-overlay-cast-button {
-      display: none;
   }
 
   .logo {

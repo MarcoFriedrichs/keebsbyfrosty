@@ -18,7 +18,7 @@ export default {
 <style>
   .footer {
     margin-bottom: 25px;
-    max-width: 900px;
+    width: 100%;
     font-family: 'Inter';
     text-align: center;
     color: gray;

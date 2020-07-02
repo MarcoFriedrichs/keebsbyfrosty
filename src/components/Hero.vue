@@ -181,11 +181,7 @@ export default {
     font-size: 16px;
     color: #fff;
   }
-  @media (min-width: 768px) {
-
-
-  }
-
+  
   @media (max-width: 767px) {
 
     .page-links {

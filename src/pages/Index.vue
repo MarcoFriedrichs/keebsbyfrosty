@@ -5,6 +5,7 @@
     <Rule></Rule>
     <Work></Work>
     <Contact></Contact>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import About from '../components/About'
 import Rule from '../components/Rule'
 import Work from '../components/Work'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default {
   components: {
@@ -21,10 +23,11 @@ export default {
     About,
     Rule,
     Work,
-    Contact
+    Contact,
+    Footer
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Keebs by Frosty'
   }
 }
 </script>

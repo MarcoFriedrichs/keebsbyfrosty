@@ -1,5 +1,6 @@
 <template>
   <div class="section">
+  <a id="contact"></a>
     <div class="section-wrapper">
       <div class="title">
         {{ title }}

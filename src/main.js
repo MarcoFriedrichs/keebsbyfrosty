@@ -3,6 +3,8 @@
 
 import Index from '~/pages/Index'
 
+
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Index', {

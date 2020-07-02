@@ -1,0 +1,110 @@
+<template>
+  <div class="section">
+    <div class="section-wrapper">
+      <div class="title">
+        {{ title }}
+      </div>
+      <div class="section-content">
+          <div class="gallery">
+              <div class="image" v-for="item in images" :key="image">
+                  <div class="image-title">{{ item.title }}</div>
+                  <img :src="item.url"/>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Hero',
+  data () {
+    return {
+      title: "Some Keebs I’ve built",
+      images: [
+            {
+                title: "Title",
+                url: 'https://source.unsplash.com/random/900x400'
+            },
+            {
+                title: "Title",
+                url: 'https://source.unsplash.com/random/900x420'
+            },
+      ]
+    }
+  }
+}
+</script>
+
+<style>
+  .section {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 900px;
+    font-family: 'Inter';
+    text-align: center;
+  }
+
+  .section-wrapper {
+    margin: 100px 0;
+  }
+
+  .section-content {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+
+  .gallery {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .gallery .image {
+    background: #c9c9c9;
+    max-width: 900px;
+    height: 350px;
+    margin: 13px 0;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  .gallery .image .image-title {
+      position: absolute;
+      z-index: 5000;
+      font-size: 26px;
+      font-weight: 500;
+      color: #fff;
+      margin-top: 175px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: ease 200ms all;
+  }
+
+  .gallery .image img {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1);
+      transition: ease 500ms all;
+  }
+
+  .gallery .image:hover > img {
+      transform: scale(1.1);
+      filter: brightness(0.8);
+  }
+
+  .gallery .image:hover > .image-title {
+      opacity: 1;
+  }
+</style>

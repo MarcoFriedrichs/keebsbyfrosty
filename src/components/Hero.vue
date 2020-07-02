@@ -1,6 +1,5 @@
 <template>
   <div class="hero">
-    <div class="overflow"></div>
     <div class="top-bar">
       <div class="logo"></div>
       <ul class="page-links">
@@ -63,12 +62,6 @@ export default {
     overflow: hidden;
   }
 
-  .overflow {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
 
   video {
     display: block;

@@ -1,7 +1,7 @@
 <template>
   <div class="section">
   <a id="work"></a>
-    <div class="section-wrapper">
+    <div id="work-section" class="section-wrapper">
       <div class="title">
         {{ title }}
       </div>
@@ -47,8 +47,8 @@ export default {
     text-align: center;
   }
 
-  .section-wrapper {
-    margin: 100px 0;
+  #work-section {
+    margin-top: 50px;
   }
 
   .section-content {

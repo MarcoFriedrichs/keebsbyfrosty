@@ -30,7 +30,7 @@
         </div>
       </a>
     </div>
-    <video src="../../static/keyboard_1080p_video.mp4" autoplay loop muted disableRemotePlayback></video>
+    <video id="videoplayer" preload="false" src="../../static/keyboard_1080p_video.mp4" autoplay="false" loop muted disableRemotePlayback></video>
   </div>
 </template>
 
@@ -50,6 +50,10 @@ export default {
       },
       centerText: "You wanna buy a keyboard?<br>You've come to the right place!"
     }
+  },
+  mounted () {
+    let video = document.getElementById('videoplayer')
+    video.setAttribute('autoplay', 'true')
   }
 }
 </script>

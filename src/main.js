@@ -14,4 +14,17 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://rsms.me/inter/inter.css'
   })
+
+  head.meta.push({
+    name: 'keywords',
+    content: 'Keyboards,Mechanical,Cherry,Build,'
+  })
+
+  head.link.push(
+    {
+      rel: 'favicon',
+      href: '../static/favicon.ico'
+    }
+  )
+
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <a id="about"></a>
-    <div class="section-wrapper">
+    <div id="about-section" class="section-wrapper">
       <div class="title">
         {{ title }}
       </div>
@@ -32,8 +32,8 @@ export default {
     text-align: center;
   }
 
-  .section-wrapper {
-    margin: 100px 0;
+  #about-section {
+    margin-bottom: 50px;
   }
 
   .section-content {

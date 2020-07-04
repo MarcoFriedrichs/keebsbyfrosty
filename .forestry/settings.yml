@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: pagecontent.md
+  path: content/pagecontent.yaml
   label: Page Content
 - type: directory
-  path: projects
+  path: content/projects
   label: Projects
   create: documents
   match: "**/*"

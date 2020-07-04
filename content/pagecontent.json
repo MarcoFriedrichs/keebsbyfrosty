@@ -1,3 +1,10 @@
 {
-    
+  "hero_text": "",
+  "cta_button_text": "",
+  "about_section": {
+    "title": "",
+    "about_text": ""
+  },
+  "gallery_title": "",
+  "contact_title": ""
 }

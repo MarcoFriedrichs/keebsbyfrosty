@@ -14,6 +14,11 @@ fields:
   config:
     required: false
   label: Button Text
+- name: social_links
+  type: include
+  config: {}
+  template: social-links
+  label: Social Links
 - name: about_section
   type: field_group
   config: {}

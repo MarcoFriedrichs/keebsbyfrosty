@@ -48,5 +48,10 @@ fields:
   config:
     required: false
   label: Contact Title
+- name: footer
+  type: text
+  config:
+    required: false
+  label: Footer
 pages:
 - content/pagecontent.json

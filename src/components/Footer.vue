@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    {{ footerText }} - developed by <a href="https://link.marcofriedrichs.com">Marco Friedrichs</a>
+    {{ footerText }} - developed by <a href="http://link.marcofriedrichs.com">Marco Friedrichs</a>
   </div>
 </template>
 

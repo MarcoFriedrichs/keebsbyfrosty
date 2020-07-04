@@ -1,4 +1,24 @@
 ---
 label: Social Links
 hide_body: true
-fields: []
+fields:
+- name: youtube
+  type: text
+  config:
+    required: true
+  label: Youtube URL
+- name: discord
+  type: text
+  config:
+    required: true
+  label: Discord URL
+- name: instagram
+  type: text
+  config:
+    required: true
+  label: Instagram URL
+- name: email
+  type: text
+  config:
+    required: true
+  label: Email Address

@@ -12,3 +12,5 @@ fields:
   config:
     maxSize: 64
   label: Image
+pages:
+- projects/quefrency-v2-lubed-gateron-yellows-205g0.md

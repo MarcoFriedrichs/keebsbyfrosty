@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: pagecontent
+  path: pagecontent.md
   label: Page Content
-  match: "**/*"
 - type: directory
   path: projects
   label: Projects

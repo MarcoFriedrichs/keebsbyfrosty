@@ -20,11 +20,14 @@
 </template>
 
 <script>
+
+import content from '../../content/pagecontent.json'
+
 export default {
     name: 'Hero',
     data () {
         return {
-        title: "Commission a Build"
+            title: content.contact_title
         }
     },
     mounted() {

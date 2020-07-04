@@ -6,18 +6,22 @@
         {{ title }}
       </div>
       <div class="section-content">
-        I believe in everyone having a luxurious typing experience and I can help make that happen. any demand, any features, any budget, i can help make that happen. just drop me an <a href="mailto:samadrizvi@yahoo.com">email</a> and ill help.
+        {{ text }}
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
+import content from '../../content/pagecontent.json'
+
 export default {
   name: 'Hero',
   data () {
     return {
-      title: "Keyboard Assembly on a Budget"
+      title: content.about_section.title,
+      text: content.about_section.about_text
     }
   }
 }

@@ -18,11 +18,14 @@
 </template>
 
 <script>
+
+import content from '../../content/pagecontent.json'
+
 export default {
   name: 'Hero',
   data () {
     return {
-      title: "Some Keebs I’ve built",
+      title: content.gallery_title,
       images: [
             {
                 title: "quefrency v2, lubed gateron yellows (205g0)",

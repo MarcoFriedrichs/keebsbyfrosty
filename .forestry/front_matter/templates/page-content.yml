@@ -1,4 +1,44 @@
 ---
 label: Page Content
 hide_body: true
-fields: []
+fields:
+- name: hero_text
+  type: text
+  config:
+    required: false
+  label: Hero Text
+  description: Text that is displayed at the center of the hero section
+- name: cta_button_text
+  type: text
+  config:
+    required: false
+  label: Button Text
+- name: about_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: about_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: About Text
+  label: About Section
+- name: gallery_title
+  type: text
+  config:
+    required: false
+  label: Gallery Title
+- name: contact_title
+  type: text
+  config:
+    required: false
+  label: Contact Title

@@ -50,6 +50,9 @@
 </template>
 
 <script>
+
+import content from '../../content/pagecontent.json'
+
 export default {
   name: 'Hero',
   data () {

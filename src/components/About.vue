@@ -6,7 +6,7 @@
         {{ title }}
       </div>
       <div class="section-content">
-        I believe in everyone having a luxurious typing experience and I can help make that happen. any demand, any features, any budget, i can help make that happen. just drop me an email and ill help.
+        I believe in everyone having a luxurious typing experience and I can help make that happen. any demand, any features, any budget, i can help make that happen. just drop me an <a href="mailto:samadrizvi@yahoo.com">email</a> and ill help.
       </div>
     </div>
   </div>
@@ -30,6 +30,10 @@ export default {
     max-width: 900px;
     font-family: 'Inter';
     text-align: center;
+  }
+
+  .section a {
+    color: rgb(114, 114, 114);
   }
 
   #about-section {

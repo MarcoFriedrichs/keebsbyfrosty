@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: content/pagecontent.yaml
+  path: content/pagecontent.json
   label: Page Content
 - type: directory
   path: content/projects
@@ -24,4 +24,4 @@ build:
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: gridsome develop

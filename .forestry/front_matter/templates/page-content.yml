@@ -1,6 +1,7 @@
 ---
 label: Page Content
 hide_body: true
+display_field: hero_text
 fields:
 - name: hero_text
   type: text

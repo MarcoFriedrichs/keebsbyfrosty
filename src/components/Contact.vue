@@ -6,14 +6,16 @@
         {{ title }}
       </div>
       <div class="section-content">
-        <form method="post" action="https://send.pageclip.co/7xR3DgqDSk9jW9ZXiWvKaBIT6XZQuOy0/contact-form">
+        <!--form method="post" action="https://send.pageclip.co/7xR3DgqDSk9jW9ZXiWvKaBIT6XZQuOy0/contact-form">
             <div class="info">
                 <input id="name" type="text" name="name" placeholder="Name" required="required"/>
                 <input id="email" type="email" name="email" placeholder="Email" required="required"/>
             </div>
             <textarea id="message" type="text" name="name" placeholder="Message" required="required"></textarea>
             <input id="send" type="submit" value="Send">
-        </form>
+        </form-->
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/kPhfPvl3" style="width: 100%; height: 600px;"></div>
+        <!--div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=kPhfPvl3&utm_source=typeform.com-01EDEPRQAYV1S4KPA8ECWB8F9Y-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div-->
       </div>
     </div>
   </div>
@@ -34,6 +36,12 @@ export default {
         let pageclip = document.createElement('script')
         pageclip.setAttribute('src', 'https://s.pageclip.co/v1/pageclip.js')
         document.head.appendChild(pageclip)
+
+        //typeform code
+        var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/";
+        if(!gi.call(d,id)) { 
+            js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) 
+        }
     },
 }
 </script>

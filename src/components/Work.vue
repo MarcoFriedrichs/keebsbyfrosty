@@ -1,21 +1,35 @@
 <template>
-  <div class="section">
+  <div class="section"> 
   <a id="work"></a>
     <div id="work-section" class="section-wrapper">
       <div class="title">
         {{ title }}
       </div>
+
       <div class="section-content">
           <div class="gallery">
-              <div class="image" v-for="item in images" :key="image">
-                  <div class="image-title">{{ item.title }}</div>
-                  <img :src="item.url"/>
+              <div class="image" v-for="item in $static.allProject.edges" :key="image">
+                  <div class="image-title">{{ item.node.title }}</div>
+                  <img :src="`https://res.cloudinary.com/marcofriedrichs/image/upload/c_thumb,h_350,q_90,w_900/` + item.node.image" alt="Custom Mechanical Keyboard"/>
               </div>
           </div>
       </div>
     </div>
   </div>
 </template>
+
+<static-query>
+  query {
+    allProject (order: ASC) {
+      edges {
+        node {
+          title
+          image
+        }
+      }
+    }
+  }
+</static-query>
 
 <script>
 

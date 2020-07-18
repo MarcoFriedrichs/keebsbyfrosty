@@ -1,9 +1,10 @@
 <template>
   <div class="section">
-  <a id="contact"></a>
     <div class="section-wrapper">
       <div class="title">
-        {{ title }}
+        <a id="contact">
+            {{ title }}
+        </a>
       </div>
       <div class="section-content">
         <!--form method="post" action="https://send.pageclip.co/7xR3DgqDSk9jW9ZXiWvKaBIT6XZQuOy0/contact-form">
@@ -73,6 +74,10 @@ export default {
         width: 100%;
         text-align: center;
     }
+
+    .title a {
+        color: black;
+    }  
 
     form input {
         padding: 10px;

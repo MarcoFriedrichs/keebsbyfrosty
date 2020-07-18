@@ -1,9 +1,10 @@
 <template>
   <div class="section"> 
-  <a id="work"></a>
     <div id="work-section" class="section-wrapper">
       <div class="title">
-        {{ title }}
+        <a id="work">
+          {{ title }}
+        </a>
       </div>
 
       <div class="section-content">
@@ -80,6 +81,10 @@ export default {
     width: 100%;
     text-align: center;
   }
+
+  .title a {
+    color: black;
+  }  
 
   .gallery {
     margin-top: 25px;

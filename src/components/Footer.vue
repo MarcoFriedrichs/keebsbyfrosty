@@ -24,7 +24,7 @@ export default {
     width: 100%;
     font-family: 'Inter';
     text-align: center;
-    color: gray;
+    color: rgb(61, 61, 61);
   }
 
   a {

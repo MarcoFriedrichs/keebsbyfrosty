@@ -1,9 +1,10 @@
 <template>
   <div class="section">
-    <a id="about"></a>
     <div id="about-section" class="section-wrapper">
       <div class="title">
-        {{ title }}
+        <a id="about">
+            {{ title }}
+        </a>
       </div>
       <div class="section-content">
         {{ text }}
@@ -56,4 +57,8 @@ export default {
     width: 100%;
     text-align: center;
   }
+  
+  .title a {
+    color: black;
+  }  
 </style>

@@ -30,9 +30,10 @@ export default {
     title: 'Home',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'description', content: "hello! welcome to the site, take a nice look around and take a seat. now you're probably wondering what is this, how'd i get here and why am i watching some guy lube a keyboard, now i can only answer the first question. this is keebs by frosty. a place where you can have a luxurious typing experience made up to your tastes and on a budget. now what are you doing? contact me!"}
     ],
-    
+
   },
   mounted () {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

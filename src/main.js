@@ -17,7 +17,7 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'keywords',
-    content: 'Keyboards,Mechanical,Cherry,Build,'
+    content: 'Keyboards,Mechanical,Cherry,Build,Lube,Gaming'
   })
 
   head.link.push(

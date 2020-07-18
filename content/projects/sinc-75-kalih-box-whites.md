@@ -1,5 +1,5 @@
 ---
 title: sinc 75%, kalih box whites
-image: "/uploads/mxxajpu.jpg"
+image: "/v1595056819/mxxajpu_ftcpzs.jpg"
 
 ---

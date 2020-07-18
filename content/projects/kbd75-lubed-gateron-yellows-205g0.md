@@ -1,5 +1,5 @@
 ---
 title: kbd75, lubed gateron yellows (205g0)
-image: "/uploads/son05192.JPG"
+image: "/v1595057140/son05192_swmkqw.jpg"
 
 ---

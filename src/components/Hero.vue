@@ -1,5 +1,6 @@
 <template>
   <div class="hero">
+    <Banner :bannerContent="banner" :visible="true"></Banner>
     <div class="top-bar">
       <div class="logo"></div>
       <ul class="page-links">
@@ -56,10 +57,14 @@
 
 <script>
 
+import Banner from './Banner'
 import content from '../../content/pagecontent.json'
 
 export default {
   name: 'Hero',
+  components: {
+    Banner
+  },
   data () {
     return {
       navLinks: [
@@ -74,7 +79,11 @@ export default {
         email: { url: "mailto:" + content.email }
       },
       centerText: content.hero_text,
-      button: content.cta_button_text
+      button: content.cta_button_text,
+      banner: {
+        text: "Join our discord here",
+        url: content.discord
+      }
     }
   },
   mounted () {

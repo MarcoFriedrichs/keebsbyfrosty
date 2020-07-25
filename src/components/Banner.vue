@@ -37,13 +37,13 @@ export default {
 
 <style>
     #banner {
+        z-index: 99999999;
         position: fixed;
         line-height: 30px;
         width: 100%;
         background: black;
         top: -30px;
         opacity: 0;
-        transition: ease all 500ms;
     }
 
     #banner.visible {

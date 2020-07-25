@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <Banner :bannerContent="banner" :visible="true"></Banner>
+    <Banner :bannerContent="banner" :visible="banner.visibility"></Banner>
     <div class="top-bar">
       <div class="logo"></div>
       <ul class="page-links">
@@ -81,8 +81,9 @@ export default {
       centerText: content.hero_text,
       button: content.cta_button_text,
       banner: {
-        text: "Join our discord here",
-        url: content.discord
+        visibility: content.show_banner,
+        text: content.banner_text,
+        url: content.banner_url
       }
     }
   },

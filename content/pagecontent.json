@@ -11,5 +11,8 @@
   "discord": "https://discord.gg/2wRMs5j",
   "instagram": "https://www.instagram.com/keebsbyfrosty/",
   "email": "samadrizvi@yahoo.com",
-  "footer": "© keebsbyfrosty 2020"
+  "footer": "© keebsbyfrosty 2020",
+  "show_banner": true,
+  "banner_text": "Join our discord here",
+  "banner_url": "https://discord.gg/2wRMs5j"
 }

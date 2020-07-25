@@ -1,4 +1,23 @@
 ---
 label: Banner
 hide_body: true
-fields: []
+fields:
+- name: show_banner
+  type: boolean
+  label: Show Banner
+- name: banner_text
+  type: text
+  config:
+    required: false
+  label: Banner Text
+  showOnly:
+    field: show_banner
+    value: true
+- name: banner_url
+  type: text
+  config:
+    required: false
+  label: Banner URL
+  showOnly:
+    field: show_banner
+    value: true

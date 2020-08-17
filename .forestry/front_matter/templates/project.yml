@@ -13,4 +13,5 @@ fields:
     maxSize: 10
   label: Image
 pages:
+- content/projects/build-for-faze-jarvis-tofu-60-with-cherry-reds.md
 - content/projects/kbd75-lubed-gateron-yellows-205g0.md

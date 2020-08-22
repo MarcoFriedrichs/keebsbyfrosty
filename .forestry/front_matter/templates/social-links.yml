@@ -2,6 +2,11 @@
 label: Social Links
 hide_body: true
 fields:
+- name: shop
+  type: text
+  config:
+    required: false
+  label: Shop URL
 - name: youtube
   type: text
   config:

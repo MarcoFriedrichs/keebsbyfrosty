@@ -71,7 +71,7 @@ export default {
         { text: 'About', url: '#about' },
         { text: 'Work', url: '#work' },
         { text: 'Contact', url: '#contact' },
-        { text: 'Shop', url: '#'}
+        { text: 'Shop', url: content.shop}
       ],
       socialLinks: {
         youtube: { url: content.youtube },

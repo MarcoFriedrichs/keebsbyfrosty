@@ -58,5 +58,20 @@ fields:
   config:
     required: false
   label: Footer
+- name: pricing
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: pricing_text
+    type: text
+    config:
+      required: false
+    label: Pricing Text
+  label: Pricing Section
 pages:
 - content/pagecontent.json

@@ -5,6 +5,7 @@
     <Rule></Rule>
     <Work></Work>
     <Contact></Contact>
+    <Pricing></Pricing>
     <Footer></Footer>
   </div>
 </template>
@@ -15,6 +16,7 @@ import About from '../components/About'
 import Rule from '../components/Rule'
 import Work from '../components/Work'
 import Contact from '../components/Contact'
+import Pricing from '../components/Pricing'
 import Footer from '../components/Footer'
 
 export default {
@@ -24,7 +26,8 @@ export default {
     Rule,
     Work,
     Contact,
-    Footer
+    Footer,
+    Pricing
   },
   metaInfo: {
     title: 'Home',

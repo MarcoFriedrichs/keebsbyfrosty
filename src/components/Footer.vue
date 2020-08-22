@@ -9,7 +9,7 @@
 import content from '../../content/pagecontent.json'
 
 export default {
-  name: 'Hero',
+  name: 'Footer',
   data () {
     return {
       footerText: content.footer

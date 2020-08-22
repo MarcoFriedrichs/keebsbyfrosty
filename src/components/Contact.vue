@@ -27,7 +27,7 @@
 import content from '../../content/pagecontent.json'
 
 export default {
-    name: 'Hero',
+    name: 'Contact',
     data () {
         return {
             title: content.contact_title

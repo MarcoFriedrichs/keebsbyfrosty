@@ -37,7 +37,7 @@
 import content from '../../content/pagecontent.json'
 
 export default {
-  name: 'Hero',
+  name: 'Work',
   data () {
     return {
       title: content.gallery_title,

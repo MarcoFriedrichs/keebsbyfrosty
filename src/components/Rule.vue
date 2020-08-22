@@ -6,12 +6,7 @@
 
 <script>
 export default {
-  name: 'Hero',
-  data () {
-    return {
-      title: "Keyboard Assembly on a Budget"
-    }
-  }
+  name: 'Rule'
 }
 </script>
 

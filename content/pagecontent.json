@@ -15,5 +15,9 @@
   "show_banner": true,
   "banner_text": "join the discord by clicking here! lead time may be greater than 2 weeks",
   "banner_url": "https://discord.gg/2wRMs5j",
-  "shop": "https://www.keebsbyfrosty.com/"
+  "shop": "https://www.keebsbyfrosty.com/",
+  "pricing": {
+    "title": "Pricing",
+    "pricing_text": "---"
+  }
 }

@@ -70,7 +70,8 @@ export default {
       navLinks: [
         { text: 'About', url: '#about' },
         { text: 'Work', url: '#work' },
-        { text: 'Contact', url: '#contact' }
+        { text: 'Contact', url: '#contact' },
+        { text: 'Shop', url: '#'}
       ],
       socialLinks: {
         youtube: { url: content.youtube },

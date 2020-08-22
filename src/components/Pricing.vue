@@ -2,7 +2,7 @@
   <div class="section">
     <div id="about-section" class="section-wrapper">
       <div class="title">
-        <a id="about">
+        <a id="pricing">
             {{ title }}
         </a>
       </div>
